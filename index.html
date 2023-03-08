@@ -4,7 +4,10 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
@@ -25,7 +28,53 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="#" target="_blank" class="header__logo"></a>
+                    <ul class="header__menu">
+                        <li>
+                            <a href="#" class="header__link">
+                                Кто мы?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">
+                                Услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">
+                                Акселератор
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">
+                                Новости
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="header__btn">
+                        Войти
+                    </button>
+                </nav>
+                <div class="header__offer">
+                  <h1 class="header__title">
+                    Запустите 
+                      <span class="header__title-color">
+                        Технологический IT-бизнес
+                      </span>
+                      На международных рынках
+                  </h1>
+                  <p class="header__subtitle">
+                    Открыт набор на заявок на акселератор
+                  </p>
+                  <button class="btn-application btn-application_margin-left">
+                    Подать заявку
+                  </button>
+                </div>
+            </div>
+        </header>
     </div>
 
 </body>
