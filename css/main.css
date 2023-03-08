@@ -3,9 +3,11 @@ body {
 }
 
 .header {
+  padding-top: 25px;
   background-image: url(../img/header__image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   z-index: 1;
   box-sizing: border-box;
@@ -60,7 +62,7 @@ body {
   text-decoration: none;
 }
 
-.header__btn {
+.btn {
   width: 149px;
   height: 56px;
   color: #fff;
@@ -70,6 +72,7 @@ body {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  padding: 0;
 }
 
 .header__offer {
